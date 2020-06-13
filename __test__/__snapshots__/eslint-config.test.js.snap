@@ -30,6 +30,12 @@ Object {
   "root": true,
   "rules": Object {
     "@typescript-eslint/explicit-function-return-type": "off",
+    "prettier/prettier": Array [
+      "error",
+      Object {
+        "singleQuote": true,
+      },
+    ],
     "react-hooks/exhaustive-deps": "warn",
     "react-hooks/rules-of-hooks": "error",
     "react/react-in-jsx-scope": "off",
