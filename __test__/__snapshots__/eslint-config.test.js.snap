@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The configuration file should not change It should response with custom configuration 1`] = `
+Object {
+  "env": Object {
+    "browser": true,
+    "es6": true,
+    "node": true,
+  },
+  "extends": Array [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended",
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": Object {
+    "ecmaFeatures": Object {
+      "jsx": true,
+    },
+    "ecmaVersion": 11,
+    "sourceType": "module",
+  },
+  "plugins": Array [
+    "@typescript-eslint",
+    "react-hooks",
+  ],
+  "root": true,
+  "rules": Object {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "prettier/prettier": Array [
+      "error",
+      Object {
+        "singleQuote": true,
+      },
+    ],
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react/react-in-jsx-scope": "off",
+  },
+}
+`;
