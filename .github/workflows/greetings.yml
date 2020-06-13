@@ -1,0 +1,14 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+            repo-token: ${{ secrets.TOKEN_GREETING }}
+            issue-message: 'Thanks for helping us to improve the project with your feedback'
+            pr-message: 'Congratulations for doing your first PR !'
+            
