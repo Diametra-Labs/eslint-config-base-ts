@@ -2,6 +2,9 @@
   "name": "eslint-config-base-diametra-ts",
   "version": "1.0.0",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": "git@github.com:Diametra-Labs/eslint-config-base-ts.git",
   "author": "Markoz Peña <markdrew53@gmail.com>",
   "keywords": [
